@@ -4,7 +4,7 @@
 
 [![Github All Releases](https://img.shields.io/github/downloads/ztxtech/winsw_GUI/total?style=flat-square)](https://github.com/ztxtech/winsw_GUI/releases)
 [![GitHub Release](https://img.shields.io/github/v/release/ztxtech/winsw_GUI?include_prereleases&sort=semver&style=flat-square)](https://github.com/ztxtech/winsw_GUI/releases)
-[![License](https://img.shields.io/github/license/ztxtech/winsw_GUI?style=flat-square)](LICENSE.txt)
+[![License](https://img.shields.io/github/license/ztxtech/winsw_GUI?style=flat-square)](LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.12-blue?style=flat-square)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/platform-windows-lightgrey?style=flat-square)](https://github.com/ztxtech/winsw_GUI)
 [![Dependencies](https://img.shields.io/badge/dependencies-requests-orange?style=flat-square)](https://github.com/ztxtech/winsw_GUI)
