@@ -1,0 +1,1 @@
+pyinstaller --name "WinSW_GUI" --onefile --windowed --icon="etc/icon/ztxtech.png" --add-data "etc;etc" main.py
