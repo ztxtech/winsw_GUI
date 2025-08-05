@@ -1,1 +1,45 @@
-<?xml version="1.0" ?><service>    <id>your-service-id</id>    <name>Your Service Name</name>    <description>Description of your Python service</description>    <!-- Python可执行文件路径 -->    <executable>C:\Python\python.exe</executable>    <!-- Python脚本路径和参数 -->    <arguments>C:\path\to\your\script.py</arguments>    <!-- 工作目录 -->    <workingdirectory>C:\path\to\your\project</workingdirectory>    <!-- 环境变量配置 -->    <env name="PYTHONUNBUFFERED" value="1"/>    <env name="PYTHONPATH" value="C:\Python"/>    <!-- 可以根据需要添加更多环境变量 -->    <!-- <env name="VARIABLE_NAME" value="variable_value"/> -->    <!-- 服务配置 -->    <resetfailure>1 day</resetfailure>    <priority>Normal</priority>    <stoptimeout>15 sec</stoptimeout>    <!-- 日志配置 -->    <logpath>C:\logs\your-service</logpath>    <log mode="roll"/>    <!-- 失败时重启 -->    <onfailure action="restart"/>    <!-- 服务账户配置 -->    <serviceaccount>        <username>LocalSystem</username>    </serviceaccount></service>
+<?xml version="1.0" ?>
+
+<service>
+    <id>your-service-id</id>
+    <name>Your Service Name</name>
+    <description>Description of your Python service</description>
+
+    <!-- Python可执行文件路径 -->
+    <executable>C:\Python\python.exe</executable>
+
+    <!-- Python脚本路径和参数 -->
+    <arguments>C:\path\to\your\script.py</arguments>
+
+    <!-- 工作目录 -->
+    <workingdirectory>C:\path\to\your\project</workingdirectory>
+
+    <!-- 环境变量配置 -->
+    <env name="PYTHONUNBUFFERED" value="1"/>
+    <env name="PYTHONPATH" value="C:\Python"/>
+    <env name="PYTHONOPTIMIZE" value="2"/>
+    <env name="PYTHONDONTWRITEBYTECODE" value="1"/>
+    <env name="PYTHONMALLOC" value="mimalloc"/>
+
+
+
+    <!-- 可以根据需要添加更多环境变量 -->
+    <!-- <env name="VARIABLE_NAME" value="variable_value"/> -->
+
+    <!-- 服务配置 -->
+    <resetfailure>1 day</resetfailure>
+    <priority>Normal</priority>
+    <stoptimeout>15 sec</stoptimeout>
+
+    <!-- 日志配置 -->
+    <logpath>C:\logs\your-service</logpath>
+    <log mode="roll"/>
+
+    <!-- 失败时重启 -->
+    <onfailure action="restart"/>
+
+    <!-- 服务账户配置 -->
+    <serviceaccount>
+        <username>LocalSystem</username>
+    </serviceaccount>
+</service>
