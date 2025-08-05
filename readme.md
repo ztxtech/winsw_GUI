@@ -2,7 +2,6 @@
 
 > 告别繁琐的 XML 手动配置和命令行操作！拥抱专为 [WinSW](https://github.com/winsw/winsw) 打造的、功能强大且直观的图形化管理工具。
 
-[![Github All Releases](https://img.shields.io/github/downloads/ztxtech/winsw_GUI/total?style=flat-square)](https://github.com/ztxtech/winsw_GUI/releases)
 [![GitHub Release](https://img.shields.io/github/v/release/ztxtech/winsw_GUI?include_prereleases&sort=semver&style=flat-square)](https://github.com/ztxtech/winsw_GUI/releases)
 [![License](https://img.shields.io/github/license/ztxtech/winsw_GUI?style=flat-square)](LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.12-blue?style=flat-square)](https://www.python.org/)
