@@ -19,7 +19,7 @@
     <env name="PYTHONPATH" value="C:\Python"/>
     <env name="PYTHONOPTIMIZE" value="2"/>
     <env name="PYTHONDONTWRITEBYTECODE" value="1"/>
-    <env name="PYTHONMALLOC" value="mimalloc"/>
+    <env name="PYTHONMALLOC" value="pymalloc"/>
 
 
 
